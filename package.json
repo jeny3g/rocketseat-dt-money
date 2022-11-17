@@ -17,7 +17,7 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
-    "@jeny3g/eslint-config-react": "^1.1.6",
+    "@jeny3g/eslint-config-react": "^1.1.7",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@types/styled-components": "^5.1.26",
@@ -25,7 +25,15 @@
     "eslint": "^8.27.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "json-server": "^0.17.1",
+    "ts-standard": "^12.0.1",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
+  },
+  "ts-standard": {
+    "parser": "typescript-eslint-parser",
+    "plugins": [
+      "typescript"
+    ],
+    "project": "./tsconfig.json"
   }
 }
