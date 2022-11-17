@@ -21,3 +21,9 @@ npm run dev
 ```bash
 npx json-server server.json -p 3333
 ```
+
+### Run eslint
+
+```bash
+npx eslint src --ext .ts,.tsx
+```

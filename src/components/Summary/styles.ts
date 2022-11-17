@@ -1,8 +1,7 @@
 import styled, { css } from 'styled-components'
 
-
 interface SummaryCardProps {
-  variant?: "green"
+  variant?: 'green'
 }
 
 export const SummaryContainer = styled.section`
