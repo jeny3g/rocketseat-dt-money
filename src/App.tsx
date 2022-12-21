@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import { TransactionsProvider } from './contexts/TransactionContext'
@@ -6,6 +7,10 @@ import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
 
 export function App() {
+  useEffect(() => {
+    console.log('Running twice')
+  }, [])
+
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
