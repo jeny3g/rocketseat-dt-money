@@ -1,26 +1,16 @@
-### Create Vite project
+# Rocketseat-dt-money-vite
 
-```bash
-npm create vite@latest
-```
+This project is a simple web application created using Vite and React with Typescript. It is a simple application where users can track their expenses and income.
 
-### Install dependencies
+## Installation
 
-```bash
-npm install
-```
+To install the dependencies, simply run `npm install` in the root directory of the project.
 
-### Run development server
+## Running the Application
 
-```bash
-npm run dev
-```
+To start the application, run `npm run dev` in the root directory of the project. The application will open in your browser at `http://localhost:3000`.
 
-### Run JSON server
-
-```bash
-npx json-server server.json -p 3333
-```
+To run the JSON server on port 3333, run `npm run json-server` in the root directory of the project. The JSON server will be running on port `3333`.
 
 ### Run eslint
 
